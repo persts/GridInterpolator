@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/list-remove.svg</file>
+        <file>icons/document-save.svg</file>
+        <file>icons/document-open.svg</file>
+        <file>icons/ZoomIn.png</file>
+        <file>icons/ZoomOut.png</file>
+        <file>icons/Reload.png</file>
+        <file>icons/list-add.svg</file>
+        <file>icons/help-browser.svg</file>
+        <file>icons/amnh_cbc.png</file>
+    </qresource>
+</RCC>

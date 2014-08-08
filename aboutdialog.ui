@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>681</width>
+    <height>569</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>About This Applicaiton</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icons/help-browser.svg</normaloff>:/icons/help-browser.svg</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>:/icons/amnh_cbc.png</pixmap>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>** Author: Peter J. Ersts (ersts@amnh.org)
+** Conceptual Design: Richard Pearson (pearson@amnh.org)
+**
+** This program is free software: you can redistribute it and/or modify
+** it under the terms of the GNU General Public License as published by
+** the Free Software Foundation, either version 3 of the License, or
+** (at your option) any later version.
+**
+** This program is distributed in the hope that it will be useful,
+** but WITHOUT ANY WARRANTY; without even the implied warranty of
+** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+** GNU General Public License for more details.
+**
+** You should have received a copy of the GNU General Public License
+** along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+**
+** This work was partially funded by the National Aeronautics and Space Administration
+** under award(s) NNX09AK19G, NNX09AK20G
+**
+** This work was partially funded by the National Science Foundation under Grant No.DEB-0641023
+**
+** Any opinions, findings and conclusions or recommendations expressed in this material are those
+** of the author(s) and do not necessarily reflect the views of the National Science Foundation (NSF)</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../src/gui/gui.qrc"/>
+ </resources>
+ <connections/>
+</ui>
