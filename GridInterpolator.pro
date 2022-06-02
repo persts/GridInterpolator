@@ -7,16 +7,18 @@ CONFIG += release
 CONFIG += embed_manifest_exe
 RESOURCES = ./src/gui/gui.qrc
 
+QT      += core gui widgets
+
 SOURCES += aboutdialog.cpp
 SOURCES += main.cpp
-SOURCES += ./src/app/core/raster.cpp
-SOURCES += ./src/app/gridinterpolator/gridinterpolator.cpp
-SOURCES += ./src/gui/gridinterpolatorwidget.cpp
+SOURCES += src/app/core/raster.cpp
+SOURCES += src/app/gridinterpolator/gridinterpolator.cpp
+SOURCES += src/gui/gridinterpolatorwidget.cpp
 
 HEADERS += aboutdialog.h
-HEADERS += ./src/app/core/raster.h
-HEADERS += ./src/app/gridinterpolator/gridinterpolator.h
-HEADERS += ./src/gui/gridinterpolatorwidget.h
+HEADERS += src/app/core/raster.h
+HEADERS += src/app/gridinterpolator/gridinterpolator.h
+HEADERS += src/gui/gridinterpolatorwidget.h
 
 FORMS += ./src/ui/gridinterpolatorwidget.ui
 FORMS += aboutdialog.ui

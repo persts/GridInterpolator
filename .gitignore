@@ -1,0 +1,7 @@
+Makefile
+.qmake.stash
+qrc_gui.cpp
+*.pro.user
+GridInterpolator
+
+build/
